@@ -1,0 +1,25 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "This is an API for a social network web application where users can share their thoughts, react to friends' thoughts, and create a friend list. It uses Express.js for routing, a MongoDB database, the Mongoose ODM, and Moment.js to format timestamps. The seed data is created using Insomnia.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Apixa25/social-network-api.git"
+  },
+  "author": "Steven Sills II",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Apixa25/social-network-api/issues"
+  },
+  "homepage": "https://github.com/Apixa25/social-network-api#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^8.0.1",
+    "nodemon": "^3.0.1"
+  }
+}
