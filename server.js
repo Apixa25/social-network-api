@@ -19,7 +19,7 @@ app.use(express.static("public"));
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/social-network-api", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
-  useCreateIndex: true,
+  useCreateIndex: true,  // * this is code that was add to fix a deprecation warning
   useFindAndModify: false,
 });
 
