@@ -31,5 +31,5 @@ app.use(require("./routes"));
 
 // Start the Express server and listen on the specified port
 app.listen(PORT, () => {
-  console.log(`App running on port ${PORT}!`);
+  console.log(`🌍 Connected on localhost:${PORT}`);
 });
