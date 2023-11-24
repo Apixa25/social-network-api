@@ -31,13 +31,13 @@ const reactionSchema = new Schema(
       get: (createdAtVal) => dateFormat(createdAtVal),
     },
   },
-  {
-    // Define options for the schema
-    toJSON: {
-      getters: true,
-    },
-    id: false,
-  }
+  // {
+  //   // Define options for the schema
+  //   toJSON: {
+  //     getters: true,
+  //   },
+  //   id: false,
+  // }
 );
 
 // Export the 'reactionSchema'

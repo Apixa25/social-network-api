@@ -35,7 +35,7 @@ const thoughtSchema = new Schema(
     // Define options for the schema
     toJSON: {
       virtuals: true,
-      getters: true,
+      // getters: true,
     },
     id: false,
   }
@@ -48,7 +48,7 @@ thoughtSchema.virtual("reactionCount").get(function () {
 });
 
 // Create a Mongoose model named 'Thought' using the defined schema
-const Thought = model("Thought", thoughtSchema);
+const Thought = model("thought", thoughtSchema);
 
 // Export the 'Thought' model
-module.exports = { Thought };
+module.exports = Thought;

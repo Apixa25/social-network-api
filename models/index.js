@@ -1,5 +1,6 @@
-const users = require('./users');
-const thoughts = require('./thoughts');
-const reactions = require('./reactions');
+// Imports
+const User = require("./Users");
+const Thought = require("./Thoughts");
 
-module.exports = { users, thoughts, reactions };
+// Exports
+module.exports = { User, Thought };
