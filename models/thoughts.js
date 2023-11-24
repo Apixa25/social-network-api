@@ -2,7 +2,7 @@
 const { Schema, model } = require("mongoose");
 
 // Import the 'reactionSchema' from the './Reaction' file
-const reactionSchema = require("./Reaction");
+const reactionSchema = require("./reactions");
 
 // Import the 'dateFormat' utility function from the '../utils/dateFormat' file
 const dateFormat = require("../utils/dateFormat");

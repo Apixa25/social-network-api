@@ -15,7 +15,7 @@ app.use(express.json());
 // Serve static files from the "public" directory
 app.use(express.static("public"));
 
-// Connect to MongoDB using Mongoose, with the default database named "workout"
+// Connect to MongoDB using Mongoose, with the default database named "social-network-api"
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/social-network-api", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
